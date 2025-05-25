@@ -1,0 +1,7 @@
+pygame==2.6.1
+tensorflow==2.15.0
+numpy==1.26.4
+torch==2.2.1
+scipy==1.12.0
+pywt==1.4.1
+websockets==11.0.3
