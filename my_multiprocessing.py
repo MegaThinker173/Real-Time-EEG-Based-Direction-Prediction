@@ -23,7 +23,7 @@ DOT_RADIUS = 10
 WINDOW_SIZE = 800
 
 # Load label encoder to determine correct direction order
-with open("/Users/prestonbadger/Downloads/may25_mrquy_label_encoder.pkl", "rb") as f:
+with open("/Users/prestonbadger/Downloads/may25_label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 # Set DIRECTIONS based on the trained model's label order
@@ -58,7 +58,7 @@ actions = []
 baseline_mean = None
 
 # Load model
-MODEL_PATH = "/Users/prestonbadger/Downloads/may25_mrquy_eeg_prediction_model.h5"
+MODEL_PATH = "/Users/prestonbadger/Downloads/may25_eeg_prediction_model.h5"
 model = load_model(MODEL_PATH)
 
 # ---------------------- EEG Worker (Separate Process) ---------------------- #
