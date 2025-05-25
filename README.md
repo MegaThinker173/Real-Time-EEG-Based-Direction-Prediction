@@ -4,6 +4,9 @@ This repository contains a full implementation of a real-time EEG-based directio
 
 This documentation is intended to help future developers and students understand the project and begin working with it quickly.
 
+> **Note:** If you are viewing this file in Google Drive and want to see the properly formatted version, please visit the GitHub repository:  
+> [https://github.com/MegaThinker173/Real-Time-EEG-Based-Direction-Prediction](https://github.com/MegaThinker173/Real-Time-EEG-Based-Direction-Prediction)
+
 ---
 
 ## Overview
